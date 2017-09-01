@@ -6,3 +6,6 @@ The third party use to take data from is FourSquare I am using Address of the lo
 the various methods to browse the content are through the list displayed on the right side of the map or the search box above the list.
 
 github Link :https://github.com/ankitamayekar/neighborhood-map 
+
+index.html needs a google API key.
+app.js might need four Square CLIENT_ID , CLIENT_SECRET & the version. 
