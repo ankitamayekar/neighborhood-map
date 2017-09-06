@@ -7,5 +7,3 @@ the various methods to browse the content are through the list displayed on the 
 
 github Link :https://github.com/ankitamayekar/neighborhood-map 
 
-index.html needs a google API key.
-app.js might need four Square CLIENT_ID , CLIENT_SECRET & the version. 
