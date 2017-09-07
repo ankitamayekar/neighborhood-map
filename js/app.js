@@ -84,7 +84,7 @@ function AppViewModel(){
 	this.displayArray = ko.computed( function() {
 		var input = self.myInput().toUpperCase();
 
-		if (input=="") {
+		if (input==="") {
 			self.locArray().forEach(function(restinfo){
 				restinfo.visible(true);
 			});
@@ -93,7 +93,7 @@ function AppViewModel(){
 		} else {
 			return ko.utils.arrayFilter(self.locArray(), function(restinfo) {
 			var string = restinfo.title.toUpperCase();
-			var result = (string.includes(input) == true);
+			var result = (string.includes(input) === true);
 				restinfo.visible(result);
 				return result;
 			});
